@@ -1,0 +1,116 @@
+html {
+    background-color: #AEDB9F;
+    font-family: sans-serif;
+}
+
+.top .header,
+.top .dropdown {
+    display: inline-block;
+}
+
+.dropdown {
+    display: inline;
+    position: relative;
+    padding-left: 5%;
+}
+
+.dropdown button p, .triangle{
+    display: inline-block;
+    
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+}
+
+button {
+    border: 0px;
+    background-color: #AEDB9F;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p {
+    display: block;
+    padding: 5px;
+}
+
+.dropdown-content p:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.contents {
+    background-color: white;
+    padding: 10px;
+}
+
+.registration-form {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    grid-auto-rows: max-content;
+    align-items: center;
+}
+
+.registration-form select,
+.registration-form input {
+    width: 300px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.registration-form label {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.required {
+    color: red;
+}
+
+.underscored {
+    grid-column: 3/5;
+}
+
+.mode {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    align-items: center;
+    justify-content: left;
+}
+
+.start {
+    align-self: self-start;
+}
+
+#address-field {
+    height: 100px;
+}
+
+.email-field {
+    grid-column: 2/5;
+}
+
+.bottom {
+    background-color: lightgray;
+    padding: 10px;
+    padding-left: 41%;
+}

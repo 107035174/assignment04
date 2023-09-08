@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="header">
+            <p><b>Workshop Registration</b></p>
+        </div>
+        <div class="dropdown">
+            <button>
+                <p>More Action</p>
+                <div class="triangle"></div>
+            </button>
+            <div class="dropdown-content">
+                <p>Action 1</p>
+                <p>Action 2</p>
+            </div>
+        </div>
+    </div>
+    <div class="contents">
+        <u>Register now while seats are available</u>
+        <form class="registration-form" action="">
+            <label for="fname">First Name <i class="required">*</i></label>
+            <input type="text">
+            <u class="underscored">Lunch</u>
+            <label for="lname">Last Name <i class="required">*</i></label>
+            <input type="text">
+            <label for="meal">Meal Preference</label>
+            <select name="meal" id="meal">
+                <option value="vegeterian">Vegeterian</option>
+                <option value="option-1">Option-1</option>
+                <option value="option-2">Option-2</option>
+            </select>
+            <label for="company">Company/Institution <i class="required">*</i></label>
+            <input type="text">
+            <u class="underscored">Payment Details</u>
+            <label for="address" class="start">Address <i class="required">*</i></label>
+            <input type="text" id="address-field">
+            <label for="payment" class="start">Payment Mode</label>
+            <div class="mode">
+                <input type="checkbox">
+                <label for="cash" class="payment-option"> Cash</label>
+                <input type="checkbox">
+                <label for="cheque" class="payment-option"> Cheque</label>
+                <input type="checkbox">
+                <label for="demand" class="payment-option"> Demand Draft</label>
+            </div>
+            <label for="city">City</label>
+            <input type="text">
+            <label for="cheque-no">DD/Cheque No.</label>
+            <input type="text">
+            <label for="state">State / Province / Region</label>
+            <select name="state" id="state">
+                <option value="select">-select-</option>
+                <option value="state-1">State-1</option>
+                <option value="state-2">State-2</option>
+            </select>
+            <label for="bank">Drawn on (Bank Name)</label>
+            <input type="text">
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="select">-select-</option>
+                <option value="state-1">Country-1</option>
+                <option value="state-2">Country-2</option>
+            </select>
+            <label for="payable">Payable at</label>
+            <input type="text">
+            <label for="email">Email <i class="required">*</i></label>
+            <input type="text" class="email-field">
+            <label for="phone">Phone Number <i class="required">*</i></label>
+            <input type="text">
+        </form>
+    </div>
+    <div class="bottom">
+        <button type="submit"><b>Submit</b></button>
+        <button type="reset"><b>Reset</b></button>
+    </div>
+</body>
+
+</html>
